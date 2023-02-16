@@ -1,0 +1,1782 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 17 to "Nimbus-Sans-L-Regular-Condensed", "Nimbus-Sans-L-Regular-Condensed"
+@map font 18 to "Nimbus-Sans-L-Bold-Condensed", "Nimbus-Sans-L-Bold-Condensed"
+@map font 19 to "Nimbus-Sans-L-Regular-Condensed-Italic", "Nimbus-Sans-L-Regular-Condensed-Italic"
+@map font 20 to "Nimbus-Sans-L-Bold-Condensed-Italic", "Nimbus-Sans-L-Bold-Condensed-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 29 to "URW-Palladio-L-Roman", "URW-Palladio-L-Roman"
+@map font 30 to "URW-Palladio-L-Bold", "URW-Palladio-L-Bold"
+@map font 31 to "URW-Palladio-L-Italic", "URW-Palladio-L-Italic"
+@map font 32 to "URW-Palladio-L-Bold-Italic", "URW-Palladio-L-Bold-Italic"
+@map font 12 to "Symbol", "Symbol"
+@map font 34 to "URW-Chancery-L-Medium-Italic", "URW-Chancery-L-Medium-Italic"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Tue May 24 06:09:37 2022"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 0, 500, 500
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 0.500000, 0.500000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "Residue number"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 100
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick out
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.000000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place normal
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "Residue number"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 100
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick out
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.000000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place normal
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 1
+@    s0 symbol size 0.250000
+@    s0 symbol color 2
+@    s0 symbol pattern 1
+@    s0 symbol fill color 2
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 1
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 2
+@    s0 line pattern 0
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 0
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 2
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "c.dat"
+@    s0 legend  ""
+@target G0.S0
+@type xy
+1 83
+2 27
+2 29
+2 82
+2 83
+2 84
+2 85
+2 125
+3 26
+3 27
+3 28
+3 29
+3 80
+3 81
+3 82
+4 25
+4 26
+4 27
+4 79
+4 80
+4 81
+4 82
+4 84
+4 90
+4 118
+5 26
+5 27
+5 28
+5 80
+6 26
+7 22
+7 23
+7 24
+7 25
+7 26
+7 71
+7 72
+7 75
+7 76
+7 79
+7 114
+8 22
+8 23
+8 24
+8 25
+8 26
+8 71
+8 72
+9 22
+9 68
+9 71
+9 72
+10 22
+10 24
+10 34
+10 68
+11 19
+11 20
+11 21
+11 22
+11 61
+11 62
+11 63
+11 64
+11 68
+12 20
+12 21
+12 22
+12 35
+12 36
+12 37
+12 62
+12 375
+12 376
+13 20
+13 61
+13 62
+13 375
+14 18
+14 19
+14 20
+14 37
+14 38
+14 39
+14 62
+14 373
+14 375
+15 59
+15 399
+15 402
+16 162
+16 163
+16 164
+16 165
+16 372
+16 373
+16 374
+16 399
+16 402
+16 403
+17 39
+17 373
+18 38
+18 39
+18 40
+18 41
+18 58
+18 59
+18 62
+18 63
+19 37
+19 38
+19 39
+19 40
+19 52
+19 58
+19 62
+19 63
+19 64
+20 37
+20 38
+20 62
+20 63
+20 64
+20 68
+20 375
+21 35
+21 37
+21 38
+21 64
+21 67
+21 68
+21 71
+21 109
+21 110
+21 113
+22 34
+22 35
+22 68
+22 71
+22 113
+22 114
+23 33
+23 34
+23 35
+23 71
+23 113
+23 114
+23 117
+24 32
+24 33
+24 34
+25 31
+25 32
+25 33
+25 113
+25 114
+25 117
+25 118
+25 121
+26 32
+27 31
+27 32
+27 33
+27 84
+27 118
+27 121
+27 124
+27 125
+29 125
+30 121
+30 124
+30 125
+31 121
+31 124
+31 125
+32 124
+33 117
+33 120
+33 121
+34 117
+34 120
+34 376
+34 377
+34 378
+35 112
+35 113
+35 116
+35 117
+35 120
+35 376
+35 379
+36 116
+36 120
+36 343
+36 374
+36 375
+36 376
+36 377
+36 379
+37 113
+37 343
+37 373
+37 374
+37 375
+37 376
+38 112
+38 116
+38 343
+38 344
+38 371
+38 373
+38 374
+38 375
+39 344
+39 371
+39 373
+39 374
+40 50
+40 52
+40 344
+40 371
+41 50
+41 52
+41 344
+41 371
+42 50
+42 318
+42 345
+42 371
+43 50
+43 52
+44 295
+44 318
+44 321
+44 345
+45 49
+45 50
+45 321
+45 345
+46 102
+46 295
+46 296
+46 298
+46 318
+46 319
+46 321
+46 323
+46 326
+47 101
+47 102
+47 103
+47 319
+47 320
+47 321
+47 323
+47 326
+47 345
+47 346
+48 102
+48 103
+48 108
+48 344
+48 345
+49 100
+49 102
+49 103
+49 104
+49 107
+49 108
+49 109
+50 107
+50 108
+50 109
+50 344
+50 371
+51 58
+51 66
+51 67
+51 105
+51 106
+51 107
+51 109
+52 58
+52 109
+53 58
+53 64
+53 65
+53 66
+55 63
+55 64
+55 65
+58 62
+58 63
+58 64
+59 63
+62 375
+64 68
+64 69
+64 109
+65 69
+66 70
+66 105
+66 106
+67 71
+67 106
+67 109
+67 110
+68 72
+68 73
+69 73
+69 74
+70 74
+70 75
+70 76
+70 105
+70 106
+70 110
+71 75
+71 76
+71 109
+71 110
+71 113
+71 114
+72 76
+72 77
+73 77
+74 78
+74 97
+74 106
+75 79
+75 93
+75 94
+75 97
+75 106
+75 107
+75 110
+75 111
+75 114
+76 80
+78 82
+78 93
+78 97
+79 89
+79 90
+79 93
+79 94
+79 114
+82 89
+82 90
+82 93
+83 90
+83 118
+84 90
+84 118
+84 121
+84 122
+84 133
+84 137
+85 122
+85 125
+85 126
+85 133
+85 137
+86 90
+86 137
+87 91
+87 115
+87 118
+87 119
+87 137
+87 348
+87 349
+87 350
+88 92
+88 350
+89 93
+90 94
+90 114
+90 115
+90 118
+91 95
+91 96
+91 111
+91 115
+91 348
+91 349
+91 350
+92 96
+93 97
+93 106
+94 98
+94 106
+94 110
+94 111
+94 114
+94 115
+94 348
+95 99
+95 100
+95 103
+95 106
+95 111
+95 348
+95 351
+97 106
+98 103
+98 104
+98 105
+98 106
+99 105
+100 104
+100 105
+103 107
+103 108
+103 111
+103 345
+103 346
+103 347
+103 348
+103 351
+106 110
+106 111
+107 111
+107 112
+108 112
+108 344
+108 345
+108 347
+109 113
+110 114
+110 115
+111 115
+111 347
+111 348
+112 116
+112 117
+112 343
+112 344
+112 347
+112 352
+113 117
+114 118
+115 119
+115 347
+115 348
+115 349
+116 120
+116 121
+116 130
+116 343
+116 349
+116 379
+117 121
+118 122
+118 133
+119 123
+119 130
+119 133
+119 134
+119 137
+119 349
+120 124
+120 128
+120 130
+120 133
+120 376
+120 377
+120 378
+120 379
+121 125
+122 126
+122 128
+122 133
+123 127
+123 128
+123 129
+123 130
+123 133
+124 128
+126 133
+126 136
+128 132
+128 133
+128 136
+129 133
+130 134
+130 378
+130 379
+130 382
+130 412
+131 135
+131 144
+131 378
+131 379
+131 381
+131 382
+131 383
+131 385
+131 386
+131 412
+132 136
+132 141
+132 419
+133 137
+134 138
+134 349
+134 353
+134 383
+134 386
+134 387
+135 139
+135 140
+135 141
+135 143
+135 144
+135 386
+136 141
+137 349
+137 353
+138 353
+138 357
+138 387
+141 419
+142 419
+143 385
+143 386
+143 388
+143 419
+144 382
+144 385
+144 386
+144 388
+144 412
+144 416
+144 419
+144 420
+144 421
+145 384
+145 385
+145 388
+145 389
+145 390
+145 420
+145 421
+145 422
+145 423
+145 427
+146 179
+146 385
+146 389
+146 390
+146 409
+146 412
+146 413
+146 416
+146 420
+146 421
+146 422
+146 423
+146 427
+147 179
+147 182
+147 381
+147 384
+147 385
+147 389
+147 390
+147 392
+147 409
+147 422
+148 172
+148 173
+148 174
+148 182
+148 390
+148 391
+148 392
+148 422
+148 423
+148 424
+148 425
+148 427
+148 428
+149 171
+149 172
+149 173
+149 179
+149 182
+149 183
+149 392
+149 394
+149 406
+149 409
+149 422
+150 170
+150 171
+150 172
+150 244
+150 288
+150 290
+150 367
+150 391
+150 392
+150 393
+150 394
+150 396
+151 169
+151 170
+151 171
+151 172
+151 173
+151 182
+151 183
+151 186
+151 394
+151 395
+151 396
+151 406
+152 163
+152 164
+152 165
+152 166
+152 168
+152 169
+152 170
+152 370
+152 394
+152 395
+152 396
+152 397
+153 169
+153 170
+153 171
+153 186
+153 189
+153 190
+153 226
+153 229
+153 230
+153 396
+153 397
+154 166
+154 168
+154 169
+154 190
+154 222
+154 226
+154 397
+154 398
+155 169
+155 190
+155 193
+155 194
+155 197
+155 215
+155 221
+155 222
+155 225
+155 226
+155 229
+155 397
+156 166
+156 194
+156 215
+156 397
+156 398
+157 190
+157 194
+157 198
+157 397
+157 398
+158 198
+158 215
+158 399
+159 397
+159 398
+159 399
+159 400
+160 190
+160 191
+160 397
+160 398
+160 400
+161 191
+161 397
+161 399
+161 400
+161 401
+161 402
+161 403
+161 406
+162 395
+162 397
+162 399
+162 400
+162 402
+162 403
+162 406
+163 395
+163 396
+163 397
+163 398
+163 399
+164 370
+164 372
+164 394
+164 395
+164 402
+164 403
+165 370
+165 372
+166 170
+166 397
+166 398
+167 246
+167 248
+167 251
+167 291
+168 217
+168 219
+168 222
+168 245
+168 246
+168 247
+169 219
+169 222
+169 223
+169 226
+169 244
+169 245
+169 246
+170 226
+170 242
+170 243
+170 244
+170 245
+170 246
+170 288
+170 290
+170 393
+171 185
+171 186
+171 189
+171 190
+171 226
+171 230
+171 241
+171 242
+171 243
+171 396
+172 240
+172 241
+172 242
+172 243
+172 244
+172 287
+172 288
+172 391
+172 428
+173 181
+173 182
+173 185
+173 186
+173 240
+173 241
+173 424
+174 240
+174 242
+174 287
+174 424
+174 425
+174 428
+175 181
+175 185
+175 239
+175 240
+175 425
+176 181
+176 182
+176 185
+176 240
+176 422
+177 181
+177 422
+177 424
+178 182
+178 183
+178 413
+178 422
+179 183
+179 184
+179 409
+179 410
+179 413
+179 421
+179 422
+180 184
+180 410
+180 413
+180 414
+181 185
+181 186
+181 240
+182 186
+182 187
+182 422
+183 187
+183 188
+183 405
+183 406
+183 409
+183 410
+183 422
+184 188
+184 234
+185 189
+185 234
+185 235
+185 240
+185 241
+186 190
+186 191
+186 241
+186 396
+187 191
+187 406
+188 192
+188 233
+188 234
+189 193
+189 226
+189 229
+189 230
+189 233
+189 234
+189 235
+189 241
+190 194
+190 195
+190 229
+190 396
+190 397
+190 398
+191 195
+192 196
+192 229
+192 232
+192 233
+193 197
+193 225
+193 226
+193 228
+193 229
+194 198
+195 199
+195 200
+196 200
+196 202
+197 202
+197 215
+197 225
+201 212
+202 206
+202 212
+203 208
+204 208
+205 216
+205 221
+206 214
+206 215
+206 216
+206 221
+206 225
+207 211
+207 212
+207 216
+209 216
+214 221
+215 221
+216 221
+216 222
+217 222
+218 222
+219 223
+219 260
+219 261
+219 262
+219 276
+219 280
+220 224
+220 225
+220 284
+221 225
+221 226
+222 226
+222 227
+223 227
+223 228
+223 237
+223 243
+223 280
+223 284
+223 286
+224 228
+224 284
+225 229
+225 230
+226 230
+226 237
+226 243
+227 231
+227 232
+227 237
+227 243
+227 284
+228 232
+229 233
+230 234
+230 235
+230 237
+230 241
+230 243
+231 235
+231 236
+231 237
+234 240
+235 239
+235 240
+235 241
+235 425
+236 240
+236 241
+237 241
+237 242
+237 243
+237 284
+237 285
+238 285
+238 425
+239 425
+240 425
+241 285
+241 425
+242 285
+242 286
+242 287
+242 425
+242 428
+242 431
+243 284
+243 285
+243 286
+243 287
+243 288
+244 286
+244 287
+244 288
+245 277
+245 280
+245 281
+245 286
+245 288
+245 289
+245 290
+246 290
+246 291
+246 340
+246 393
+247 252
+247 273
+247 277
+247 289
+247 290
+247 291
+248 252
+248 290
+248 291
+249 258
+249 273
+249 290
+249 291
+249 293
+249 294
+249 295
+249 318
+250 254
+250 258
+250 294
+250 295
+250 318
+252 257
+252 258
+252 259
+252 260
+252 261
+252 273
+253 257
+253 258
+253 259
+253 267
+254 294
+255 294
+255 296
+255 297
+256 268
+256 269
+256 270
+256 293
+256 294
+256 297
+257 267
+257 268
+257 269
+257 294
+258 266
+258 267
+258 268
+258 269
+258 270
+258 273
+258 293
+258 294
+258 301
+259 263
+259 264
+259 266
+259 267
+259 268
+260 264
+260 266
+260 268
+260 273
+260 276
+267 272
+268 272
+268 273
+268 276
+269 273
+269 293
+270 274
+270 275
+270 293
+270 297
+270 300
+270 303
+271 275
+271 303
+272 276
+273 277
+273 291
+273 292
+273 293
+273 304
+274 278
+274 293
+274 300
+274 303
+274 304
+274 307
+274 308
+275 279
+275 303
+275 307
+276 280
+276 281
+277 281
+277 289
+277 304
+277 308
+277 312
+278 282
+278 307
+278 308
+278 312
+279 283
+279 284
+280 284
+280 286
+281 285
+281 286
+281 289
+281 308
+281 312
+282 308
+282 311
+282 312
+285 431
+286 311
+286 312
+287 311
+287 312
+287 313
+287 425
+287 428
+287 430
+287 431
+288 311
+288 312
+288 313
+288 315
+288 391
+288 428
+289 304
+289 308
+289 312
+289 313
+289 314
+289 315
+290 315
+290 317
+290 340
+290 367
+290 393
+291 315
+291 317
+291 318
+291 319
+291 340
+291 393
+292 301
+292 304
+292 314
+292 315
+292 316
+292 319
+293 297
+293 300
+293 301
+293 304
+293 319
+294 301
+294 319
+295 301
+295 318
+295 319
+295 321
+297 301
+297 319
+297 335
+298 302
+298 319
+298 320
+298 326
+298 329
+298 330
+298 333
+298 334
+298 335
+299 303
+299 304
+300 304
+301 305
+301 319
+301 334
+301 335
+301 336
+302 306
+302 307
+302 334
+302 335
+303 307
+304 308
+304 309
+304 314
+305 309
+305 314
+305 334
+305 335
+305 336
+305 337
+307 314
+308 312
+308 314
+309 314
+309 337
+310 337
+310 429
+310 430
+310 432
+311 430
+311 431
+312 337
+313 337
+313 338
+313 363
+313 364
+313 365
+313 391
+313 427
+313 428
+313 429
+313 430
+314 335
+314 336
+314 337
+314 338
+315 338
+315 339
+315 340
+315 367
+316 320
+316 336
+316 338
+316 339
+316 340
+317 321
+317 322
+317 340
+317 342
+317 345
+317 369
+317 371
+318 345
+319 326
+319 335
+319 336
+320 326
+320 327
+320 330
+320 335
+320 336
+320 338
+320 339
+320 340
+320 345
+321 326
+321 340
+321 342
+321 345
+321 346
+322 327
+322 339
+322 340
+322 341
+322 342
+322 345
+322 346
+322 355
+323 327
+323 328
+323 345
+323 346
+323 351
+323 358
+324 328
+324 329
+324 346
+324 351
+324 354
+324 355
+324 358
+325 329
+325 330
+326 330
+327 331
+327 332
+327 339
+327 355
+327 358
+327 359
+327 364
+328 332
+328 333
+328 358
+329 333
+330 334
+330 335
+330 364
+331 339
+331 358
+331 359
+331 362
+331 364
+334 364
+335 364
+336 364
+337 363
+337 364
+337 365
+337 429
+338 365
+338 367
+338 391
+339 359
+339 364
+339 365
+339 366
+339 367
+340 345
+340 367
+340 369
+340 393
+341 346
+341 352
+341 356
+341 366
+341 367
+341 368
+341 369
+341 383
+341 389
+342 346
+342 347
+342 352
+342 369
+342 370
+342 371
+342 372
+343 347
+343 352
+343 369
+343 374
+343 379
+343 380
+343 383
+344 371
+344 374
+345 371
+346 351
+346 352
+346 355
+347 351
+348 352
+349 353
+349 383
+350 354
+351 355
+351 356
+352 356
+352 357
+352 383
+352 387
+353 357
+353 383
+353 387
+354 358
+355 359
+355 360
+356 360
+356 361
+356 366
+356 368
+356 383
+356 387
+356 389
+357 361
+357 362
+358 362
+358 364
+359 363
+359 364
+359 365
+359 366
+360 364
+360 365
+360 366
+360 387
+360 388
+360 389
+363 429
+364 429
+365 391
+365 427
+365 428
+365 429
+366 389
+366 390
+366 391
+367 391
+367 392
+367 393
+368 380
+368 383
+368 384
+368 387
+368 389
+368 391
+368 392
+368 393
+368 405
+369 374
+369 380
+369 393
+369 405
+370 374
+370 380
+370 393
+370 394
+370 395
+370 405
+371 380
+372 403
+374 379
+374 380
+374 403
+374 405
+375 403
+377 381
+377 382
+377 403
+377 404
+377 405
+377 408
+378 382
+378 408
+379 383
+380 384
+380 385
+380 392
+380 393
+380 405
+381 385
+381 392
+381 405
+381 408
+381 409
+381 412
+382 386
+382 387
+382 408
+382 409
+382 412
+383 387
+383 388
+384 388
+384 389
+384 391
+384 392
+385 409
+385 412
+385 416
+385 420
+388 427
+390 422
+390 427
+390 428
+391 427
+391 428
+392 405
+392 409
+393 405
+394 405
+394 406
+394 409
+395 405
+395 406
+396 406
+404 408
+404 411
+405 409
+406 410
+407 411
+408 412
+408 413
+409 413
+409 414
+409 422
+410 414
+410 415
+411 415
+412 416
+412 420
+413 417
+413 420
+413 422
+416 420
+422 427
+423 427
+425 431
+425 432
+426 431
+426 432
+427 432
+428 432
+&

@@ -1,0 +1,12 @@
+#PBS -N all_140_0.15f
+#PBS -r n
+#PBS -o $PBS_JOBID.out
+#PBS -e $PBS_JOBID.err
+#PBS -l nodes=1:ppn=2:gpus=1:shared:gc_t4
+#PBS -l qos=mgc_nih
+#PBS -l walltime=48:00:00
+#PBS -A mgc_nih
+
+cd $PBS_O_WORKDIR
+
+python ./run_MD.py 1p7l.psf 1.cor 1p7l.xml 310 1 141523 160000000

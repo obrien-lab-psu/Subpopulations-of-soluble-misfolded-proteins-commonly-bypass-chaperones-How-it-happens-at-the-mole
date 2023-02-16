@@ -1,0 +1,9 @@
+The groel_* folder contains all the input files for the "groel-client protein" binding simulations.
+The htpg_* folder contains all the input files for the "htpg-client protein" binding simulations.
+The dnak_* folder contains all the input files for the "dnak-client protein" binding simulations.
+The script for atp consumption was calculated using the "final_mod_single_ring_model.py" code in the atp_consump folder.
+The fitting for the 20 meta analysis was done using the  "check.py" python code in the "fitting_meta" folder
+The script for kd clculation is given in the "kd" folder
+binding_v1.1.py calculates the binding between chaperone and client protein with the distance criteria in the "binding_simlation_analysis_code" folder
+binding_probability_v1.1.py calculates binding probability throught a trajectory in the "binding_simlation_analysis_code" folder
+s2.f90 is a fortran code which also calculates binding probability in the "binding_simlation_analysis_code" folder

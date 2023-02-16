@@ -1,0 +1,3 @@
+binding_v1.1.py calculates the binding between chaperone and client protein with the distance criteria
+binding_probability_v1.1.py calculates binding probability throught a trajectory
+s2.f90 is a fortran code calculates binding probability
