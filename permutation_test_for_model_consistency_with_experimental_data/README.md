@@ -5,21 +5,20 @@ Quanitfying the significance of the consistency between simualted post-translati
 (2) Then use the workflow here [https://github.com/obrien-lab-psu/entanglement_analysis_public] to identify the set of unique misfolded conformations that have changes in self-entanglement in each metastable state
 
 (3) Get distribution of theoretical proteinase K cut sites
-Usage of codes/get_theoretical_LiP_MS_peptides_v2.1.py
-        python codes/get_theoretical_LiP_MS_peptides_v2.1.py [1] [2] [3] [4] [5] [6] [7] [8]
-        [1] path to all-atom reference pdb
-        [2] path to join prob pkl file
-        [3] outfile_basename
-        [4] num iterations
-        [5] nproc
-        [6] path to PKcutsite observed probability
-        [7] path to observed AA prob across proteome
-        [8] out_path
 
+    python codes/get_theoretical_LiP_MS_peptides_v2.1.py [1] [2] [3] [4] [5] [6] [7] [8]
+    [1] path to all-atom reference pdb
+    [2] path to join prob pkl file
+    [3] outfile_basename
+    [4] num iterations
+    [5] nproc
+    [6] path to PKcutsite observed probability
+    [7] path to observed AA prob across proteome
+    [8] out_path
 
-Examples
-python codes/get_theoretical_LiP_MS_peptides_v2.0.py 2fym/2fym_chain_a_renum_rebuilt_mini_v3.pdb whole_proteome_joint_prob.pkl 2fym/p2fym 100000000 10 whole_proteome_obs_PKcutsite_prob.txt AA_prob_across_pdb_v1.1.txt
-python codes/get_theoretical_LiP_MS_peptides_v2.0.py 1p7l/1p7l_chain_a_renum_rebuilt_mini_v3.pdb whole_proteome_joint_prob.pkl 1p7l/p1p7l 100000000 10 whole_proteome_obs_PKcutsite_prob.txt AA_prob_across_pdb_v1.1.txt
+    Examples
+    python codes/get_theoretical_LiP_MS_peptides_v2.0.py 2fym/2fym_chain_a_renum_rebuilt_mini_v3.pdb whole_proteome_joint_prob.pkl 2fym/p2fym 100000000 10 whole_proteome_obs_PKcutsite_prob.txt AA_prob_across_pdb_v1.1.txt
+    python codes/get_theoretical_LiP_MS_peptides_v2.0.py 1p7l/1p7l_chain_a_renum_rebuilt_mini_v3.pdb whole_proteome_joint_prob.pkl 1p7l/p1p7l 100000000 10 whole_proteome_obs_PKcutsite_prob.txt AA_prob_across_pdb_v1.1.txt
 
 
 (4) Backmap representative entangled structures and get per residue SASA changes relative to the native state
@@ -67,6 +66,6 @@ python codes/get_SASA_change_v1.2.py inpfiles/1zmr_model_clean.pdb 1zmr inpfiles
     [8] reps for permutation 
     [9] number processors
 
-Examples
-python codes/overlap_stat_test_v4.0.py 1p7l/p1p7l_u_ent_states.pkl 1p7l/p1p7l_LiPMS_peptides_Cbuff.csv 1p7l/p1p7l_overlap_v4.0Cbuff_5rb_final 5 1p7l/p1p7l_any_pk_site_data.txt 1p7l/p1p7l_sasa_change.pkl 384 100000 20
-python codes/overlap_stat_test_v4.0.py 2fym/p2fym_u_ent_states.pkl 2fym/p2fym_LiPMS_peptides_Cbuff.csv 2fym/p2fym_overlap_v4.0Cbuff_5rb_final 5 2fym/p2fym_any_pk_site_data.txt 2fym/p2fym_sasa_change.pkl 432 100000 20
+    Examples
+    python codes/overlap_stat_test_v4.0.py 1p7l/p1p7l_u_ent_states.pkl 1p7l/p1p7l_LiPMS_peptides_Cbuff.csv 1p7l/p1p7l_overlap_v4.0Cbuff_5rb_final 5 1p7l/p1p7l_any_pk_site_data.txt 1p7l/p1p7l_sasa_change.pkl 384 100000 20
+    python codes/overlap_stat_test_v4.0.py 2fym/p2fym_u_ent_states.pkl 2fym/p2fym_LiPMS_peptides_Cbuff.csv 2fym/p2fym_overlap_v4.0Cbuff_5rb_final 5 2fym/p2fym_any_pk_site_data.txt 2fym/p2fym_sasa_change.pkl 432 100000 20
