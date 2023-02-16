@@ -1,4 +1,4 @@
-Quanitfying the significance of the consistency between simualted post-translational structural distibution and LiP-MS experimental data
+# Quanitfying the significance of the consistency between simualted post-translational structural distibution and LiP-MS experimental data
 
 (1) Use the workflow at the following link [https://github.com/obrien-lab/cg_simtk_protein_folding] to take a set of coarse grained protein dynatmics simulations and generate a set of metastable macrostates. 
 
